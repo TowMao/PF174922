@@ -95,9 +95,11 @@ Uruchomienie:
 1. Pobrać projekt z Githuba
 1. Zainstalować biblioteki za pomocą: \
 ```pip install -r requirements.txt```
-2. Uruchomić plik *main.py*
-3. Wybrać w menu najpierw opcję numer 3, jesli nie ma ścieżki *./data/combined_test_set.csv* to program sam pobierze i ją stworzy, wystarczy zostawić pustą linijkę i zostawić program aby przetrenował wybrane modele
-4. Wybrać dowolną opcję z menu i postępować zgodnie z wyświetlanymi poleceniami
+1. Utworzyć foldery
+```mkdir data saved_models model_res```
+3. Uruchomić plik *main.py*
+4. Wybrać w menu najpierw opcję numer 3, jesli nie ma ścieżki *./data/combined_test_set.csv* to program sam pobierze i ją stworzy, wystarczy zostawić pustą linijkę i zostawić program aby przetrenował wybrane modele
+5. Wybrać dowolną opcję z menu i postępować zgodnie z wyświetlanymi poleceniami
 
 Z menu głównego można wybrać 4 opcje:
 - Przetwarzanie jednej recenzji
