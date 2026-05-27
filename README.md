@@ -96,7 +96,7 @@ Uruchomienie:
 1. Zainstalować biblioteki za pomocą: \
 ```pip install -r requirements.txt```
 1. Utworzyć foldery
-```mkdir data saved_models model_res```
+```mkdir data saved_models model_res stats_pics```
 3. Uruchomić plik *main.py*
 4. Wybrać w menu najpierw opcję numer 3, jesli nie ma ścieżki *./data/combined_test_set.csv* to program sam pobierze i ją stworzy, wystarczy zostawić pustą linijkę i zostawić program aby przetrenował wybrane modele
 5. Wybrać dowolną opcję z menu i postępować zgodnie z wyświetlanymi poleceniami
