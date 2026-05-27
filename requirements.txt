@@ -1,0 +1,23 @@
+# --- Podstawowa obróbka danych i wizualizacja ---
+pandas>=2.2.0
+numpy>=1.26.0
+matplotlib>=3.8.0
+seaborn>=0.13.0
+
+# --- Klasyczne uczenie maszynowe (TF-IDF, SVM, Naive Bayes, LR) ---
+scikit-learn>=1.4.0
+
+# --- Generowanie chmur słów ---
+wordcloud>=1.9.3
+
+# --- Głębokie uczenie (PyTorch) ---
+# Uwaga: Dla systemów z kartą NVIDIA CUDA zainstaluje wersję wspierającą GPU
+torch>=2.2.0
+
+# --- NLP i sieci neuronowe (Transformers, Datasets) ---
+transformers>=4.46.0
+datasets>=2.18.0
+accelerate>=0.28.0
+
+# --- Pobieranie danych ze Steam (zależności scrapera) ---
+requests>=2.31.0
